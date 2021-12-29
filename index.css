@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.63),rgba(0,0,0,0.63)),url(images/cp1background.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.navbar{
+  width: 85%
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  position: relative;
+  top: -10px;
+  width: 100px;
+  cursor: pointer;
+}
+.navbar ul li{
+  top: -30px;
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: yellow;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+}
+.content{
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  text-align: center;
+  color: white;
+}
+.content h1{
+  font-size: 50px;
+  margin-top: -30px;
+  margin-right: 110px;
+  color: yellow;
+} 
+.content p{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+  margin-right: 150px;
+  margin-left:  150px;
+  text-align: center;
+}
+.theading h2{
+  font-size: 55px;
+  margin-top: -170px;
+  margin-right: 150px;
+  text-align: center;
+  background: linear-gradient(to right, #ffc500 0%, #c21500 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  
+ /* background-image: linear-gradient(
+      45deg,
+      #CA4246 16.666%, 
+      #E16541 16.666%, 
+      #E16541 33.333%, 
+      #F18F43 33.333%, 
+      #F18F43 50%, 
+      #8B9862 50%, 
+      #8B9862 66.666%, 
+      #476098 66.666%, 
+      #476098 83.333%, 
+      #A7489B 83.333%);
+  
+  
+  background-size: 100%;
+  background-repeat: repeat;
+
+  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  
+  
+  animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+
+}
+
+.theading h2:hover{
+    animation: rainbow-text-simple-animation 0.5s ease-in forwards;
+}
+
+
+
+@keyframes rainbow-text-simple-animation-rev {
+    0% {
+        background-size: 650%;
+    }
+    40% {
+        background-size: 650%;
+    }
+    100% {
+        background-size: 100%;
+    }
+}
+  
+*/
+
+}
